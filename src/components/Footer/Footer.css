@@ -1,0 +1,38 @@
+.footer{
+    background-color: #1B262F;
+    height: 100px;
+    /* padding-top: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .left{
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.left button{
+    background-color: transparent;
+    border: none;
+    color: #FBFCFE;
+}
+
+.left .footer-btn.pricing{
+    margin-left: 60px;
+}
+
+.left .footer-btn{
+    margin-right: 40px;
+}
+
+.footer .social-links{
+    margin-right: 160px;
+    margin-top: 40px;
+}
+
+.social-links img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}

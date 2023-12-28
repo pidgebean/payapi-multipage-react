@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.pricing-page{
+    font-family: 'Public Sans', sans-serif;
+    width: 900px;
+    /* background-color: #F2F2F2; */
+}
+
+.pricing-page .title{
+    font-size: 56px;
+    font-weight: 500;
+    color: #36536B;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+}
+
+.free-plan, .basic-plan, .premium-plan{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 582px;
+    margin-right: 25px;
+}
+
+.plans h3{
+    font-size: 32px;
+    color: #BA4270;
+}
+
+.plans p{
+    font-size: 15px;
+    color: #6C8294;
+    margin-bottom: 0px;
+}
+
+.plans h4{
+    font-size: 56px;
+    color: #36536B;
+    margin-top: 20px;
+}
+
+.plans .first-line{
+    width: 350px;
+    margin-top: -50px;
+}
+
+.plans .services{
+    display: flex;
+    flex-direction: column;
+}
+
+.services{
+    font-size: 16px;
+    color: hsla(207, 33%, 32%, 0.5);
+}
+
+.services .given{
+    color: #36536B;
+    display: flex;
+    flex-direction: row;
+}
+
+.services .given img{
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.services .service{
+    margin-bottom: 10px;
+}
+
+.services .service.not-given{
+    margin-left: 30px;
+}
+
+.plans .line-two{
+    width: 350px;
+    /* height: 10px; */
+    /* color: black; */
+}
+
+.plans .request-btn{
+    background-color: transparent;
+    width: 168px;
+    height: 48px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.action-call{
+    margin-top: 110px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 56px;
+    margin-bottom: 100px;
+    background-color: #F2F2F2;
+}
+
+.action-call .left{
+    font-size: 48px;
+    color: #36536B;
+    font-weight: 700;
+    /* margin-bottom: 100px; */
+}
+
+.action-call .right input{
+    width: 445px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+}
+
+.action-call .right button{
+    width: 173px;
+    height: 48px;
+    border: none;
+    background-color: #BA4270;
+    color: #FBFCFE;
+    position: absolute;
+    margin-left: -170px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+    .pricing-page{
+        margin-top: -200px;
+        /* align-items: center; */
+    }
+
+    .pricing-page .title{
+        margin-left: 500px;
+        font-size: 100px;
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin-left: 500px;
+        /* margin-bottom: 300px; */
+    }
+
+    .pricing-page .plans .free-plan, .basic-plan, .premium-plan{
+        margin-bottom: 200px;
+    }
+
+    .pricing-page .plans h3{
+        font-size: 60px;
+        width: 400px;
+        margin-bottom: 100px;
+    }
+
+    .pricing-page .plans p{
+        display: none;
+    }
+
+    .pricing-page .plans h4{
+        font-size: 80px;
+    }
+
+    .pricing-page .plans .services{
+        display: flex;
+        /* align-items: center; */
+        margin-left: 100px;
+    }
+
+    .pricing-page .plans .services img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .pricing-page .plans .service{
+        font-size: 30px;
+    }
+
+    .pricing-page .plans .service.not-given{
+        margin-left: 50px;
+    }
+
+    .plans .request-btn{
+        width: 300px;
+        height: 200px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .action-call{
+        display: flex;
+        flex-direction: column;
+        margin-left: 400px;
+        margin-bottom: 200px;
+    }
+
+    .action-call .left{
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+
+    .action-call .right{
+        display: flex;
+        width: 900px;
+        flex-direction: column;
+    }
+
+    .action-call .right input{
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    .action-call .right button{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    .price-page{
+        width: 1440px;
+    }
+
+    .plans{
+        margin-left: 100px;
+    }
+
+    .action-call{
+        margin-left: 400px;
+    }
+}

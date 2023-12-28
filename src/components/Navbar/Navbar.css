@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.navbar{
+    margin-left: 160px;
+    display: flex;
+    align-items: top;
+    padding-top: 30px;
+    justify-content: space-between;
+    width: 1110px;
+    height: 48px;
+    font-family: 'Public Sans', sans-serif;
+    /* background-color: transparent;  */
+    background-color: #F2F2F2;
+}
+
+.navbar .menu-btn{
+    display: none;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 30px;
+}
+
+.navbar .menu{
+    display: none;
+    position: fixed;
+    background-color: #1B262F;
+    width: 1100px;
+    height: 2500px;
+    z-index: 1;
+    margin-left: -850px;
+    margin-top: -150px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.navbar .menu img{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 850px;
+}
+
+.navbar .menu hr{
+    width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar .menu button{
+    background-color: transparent;
+    border: none;
+    color: hsla(220, 60%, 99%, 0.5);
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+
+.navbar .menu .site-links{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.page-links{
+    margin-top: -35px;
+    margin-left: 190px;
+}
+
+.nav-btn{
+    background-color: transparent;
+    border: none;
+    color: #36536B;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-btn.pricing{
+    /* margin-left: 60px; */
+    margin-right: 40px;
+}
+
+.nav-btn.about{
+    margin-right: 40px;
+}
+
+.nav-btn.demo{
+    background-color: #BA4270;
+    color: white;
+    width: 173px;
+    height: 48px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .navbar{
+        height: 400px;
+        width: 1200px;
+    }
+
+    .navbar .menu-btn{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border: none;
+    }
+
+    .navbar .menu-btn:focus ~ .navbar .menu{
+        display: block;
+        display: flex;
+    }
+    
+    .navbar .menu-btn img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar .menu{
+        /* display: block; */
+        /* display: flex; */
+        position: absolute;
+        flex-direction: column;
+    }
+    
+    .navbar .navbar-left .logo{
+        width: 300px;
+        height: 100px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .navbar .page-links{
+        display: none;
+    }
+
+    .navbar .navbar-right{
+        display: none;
+    }
+}

@@ -1,0 +1,640 @@
+.home{
+    background-color: #F2F2F2;
+    width: 1110px;
+}
+
+.top-section{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.header{
+    width: 546px;
+    height: 243px;
+    font-size: 60px;
+    color: #36536B;
+}
+
+.top-section .desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section input{
+    width: 445px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+}
+
+.top-section .demo-btn{
+    background-color: #BA4270;
+    border: none;
+    position: absolute;
+    margin-left: 276px;
+    margin-top: -48px;
+    color: white;
+    width: 173px;
+    height: 48px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.questions{
+    color: #6C8294;
+}
+
+.contact-btn{
+    background-color: transparent;
+    border: none;
+    color: #6C8294;
+    font-weight: 700;
+}
+
+.phone-mockup{
+    width: 303px;
+    height: 500px;
+    position: absolute;
+    margin-left: 700px;
+}
+
+.partners{
+    background-color: #1B262F;
+    display: flex;
+    flex-direction: row;
+    height: 472px;
+}
+
+.partners .left{
+    margin-left: 160px;
+    width: 445px;
+    height: 272px;
+    margin-top: 50px;
+}
+
+.partners .left h2{
+    width: 445px;
+    height: 56px;
+    color: #FBFCFE;
+    font-size: 45px;
+    /* margin-top: 50px; */
+}
+
+.partners .left p{
+    width: 445px;
+    height: 112px;
+    color: hsla(220, 60%, 99%, 0.5);
+    font-size: 15px;
+}
+
+.partners .left .about-btn{
+    width: 129px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid #FBFCFE;
+    color: #FBFCFE;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.partners .right{
+    /* width: 600px; */
+    height: 103px;
+    margin-top: 180px;
+    margin-left: 130px;
+}
+
+.partners .right .partners-icon{
+    margin-right: 85px;
+    margin-bottom: 45px;
+    filter: brightness(0) invert(1);
+}
+
+.showcase{
+    margin-left: 160px;
+    margin-top: 150px;
+}
+
+.showcase .easy-implement, .ui-ux{
+    display: flex;
+    flex-direction: row;
+}
+
+.showcase .easy-implement .right{
+    width: 445px;
+    height: 164px;
+    margin-top: 50px;
+}
+
+.showcase .easy-implement h2{
+    font-size: 48px;
+    color: #36536B;
+}
+
+.showcase .easy-implement p{
+    font-size: 15px;
+    color: #6C8294;
+}
+
+.showcase .ui-ux{
+    height: 600px;
+    margin-left: 50px;
+}
+
+.showcase .ui-ux .left{
+    width: 445px;
+    height: 136px;
+    margin-top: 150px;
+}
+
+.showcase .ui-ux .left h2{
+    font-size: 48px;
+    color: #36536B;
+}
+
+.showcase .ui-ux .left p{
+    font-size: 15px;
+    color: #6C8294;
+}
+
+.showcase .money-advantages{
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+}
+
+.showcase .money-advantages img{
+    width: 106px;
+    height: 106px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+.showcase .money-advantages .finances, .banking, .consumer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.showcase .money-advantages .desc{
+    width: 350px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.showcase .money-advantages .desc h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: #36536B;
+    margin-bottom: 0px;
+}
+
+.showcase .money-advantages .desc p{
+    font-size: 15px;
+    color: #6C8294;
+    text-align: center;
+}
+
+.action-call{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 56px;
+    margin-bottom: 100px;
+}
+
+.action-call .left{
+    font-size: 48px;
+    color: #36536B;
+    font-weight: 700;
+    /* margin-bottom: 100px; */
+}
+
+.action-call .right input{
+    width: 445px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+}
+
+.action-call .right button{
+    width: 173px;
+    height: 48px;
+    border: none;
+    background-color: #BA4270;
+    color: #FBFCFE;
+    position: absolute;
+    margin-left: -170px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+    .home{
+        width: 1400px;
+    }
+    
+    .top-section{
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin-top: 200px; */
+        margin-top: 200px;
+    }
+
+    .top-section .phone-mockup{
+        margin-left: 200px;
+        position: relative;
+        /* margin-top: -700px; */
+        margin-top: -500px;
+        width: 600px;
+        height: 900px;
+    }
+
+    .top-section .desc{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .top-section .desc h2{
+        font-size: 90px;
+        width: 900px;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+
+    .top-section .desc input{
+        width: 1000px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 30px;
+    }
+
+    .top-section .desc .questions{
+        margin-top: 170px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+
+    .top-section .desc .questions button{
+        font-size: 40px;
+        /* border-radius: 40px; */
+    }
+
+    .top-section .desc .demo-btn{
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 1000px;
+        height: 80px;
+        font-size: 40px;
+        border-radius: 30px;
+    }
+
+    .partners{
+        height: 1700px;
+    }
+
+    .partners .right{
+        position: absolute;
+        /* width: 600px; */
+        width: 1300px;
+        margin-left: 250px;
+    }
+
+    .partners .right img{
+        width: 300px;
+        height: 70px;
+        /* margin-right: 50px; */
+    }
+
+    .partners .right .partners-icon{
+        margin-right: 300px;
+        margin-bottom: 150px;
+    }
+
+    .partners .left{
+        margin-top: 800px;
+        margin-left: 100px;
+        width: 1300px;
+    }
+
+    .partners .left h2{
+        width: 1300px;
+        font-size: 100px;
+        margin-left: 150px;
+    }
+
+    .partners .left p{
+        width: 1200px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .partners .left .about-btn{
+        margin-top: 300px;
+        margin-left: 400px;
+        width: 400px;
+        height: 90px;
+        font-size: 30px;
+    }
+
+    .showcase .easy-implement{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 200px; */
+        margin-left: -100px;
+    }
+
+    .showcase .easy-implement .left{
+        margin-bottom: 0px;
+    }
+
+    .showcase .easy-implement .left img{
+        width: 1400px;
+    }
+
+    .showcase .easy-implement .right{
+        margin-left: 100px;
+        margin-top: -200px;
+    }
+
+    .showcase .easy-implement .right h2{
+        font-size: 90px;
+        width: 1500px;
+        margin-left: 100px;
+    }
+
+    .showcase .easy-implement .right p{
+        font-size: 50px;
+        width: 1000px;
+        text-align: center;
+    }
+
+    .showcase .ui-ux{
+        display: flex;
+        /* flex-direction: column-reverse; */
+        margin-top: 400px;
+    }
+
+    .showcase .ui-ux .right{
+        margin-left: -150px;
+        margin-bottom: 0px;
+    }
+
+    .showcase .ui-ux .right img{
+        width: 1400px;
+        margin-left: -550px;
+        margin-bottom: 0px;
+        position: absolute;
+        margin-top: 000px;
+    }
+
+    .showcase .ui-ux .left{
+        /* margin-top: -100px; */
+        margin-left: 100px;
+        margin-top: 1100px;
+    }
+
+    .showcase .ui-ux .left h2{
+        font-size: 90px;
+        width: 900px;
+        margin-left: 20px;
+    }
+
+    .showcase .ui-ux .left p{
+        font-size: 50px;
+        width: 800px;
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .showcase .money-advantages{
+        margin-top: 1200px;
+        display: flex;
+        flex-direction: column;
+        /* margin-left: -100px; */
+    }
+
+    .showcase .money-advantages .finances, .banking, .consumer{
+        margin-left: -300px;
+        margin-bottom: 300px;
+    }
+
+    .showcase .money-advantages img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .showcase .money-advantages .desc h4{
+        font-size: 50px;
+        width: 500px;
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    .showcase .money-advantages .desc p{
+        font-size: 30px;
+        width: 500px;
+        margin-left: 00px;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .home{
+        width: 1380px;
+    }
+
+    .top-section{
+        margin-top: 700px;
+    }
+
+    .top-section .desc{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .top-section .desc h2{
+        width: 1000px;
+        font-size: 80px;
+    }
+
+    .top-section .desc input{
+        margin-left: 000px;
+        margin-top: -50px;
+        font-size: 30px;
+        height: 60px;
+        width: 800px;
+    }
+
+    .top-section .desc .questions{
+        margin-top: 150px;
+        margin-left: 150px;
+        width: 800px;
+        font-size: 30px;
+    }
+
+    .top-section .desc .questions button{
+        font-size: 30px;
+    }
+
+    .top-section .desc .demo-btn{
+        margin-top: 50px;
+        width: 800px;
+        height: 60px;
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .phone-mockup{
+        position: absolute;
+        margin-top: -700px;
+        margin-left: 300px;
+        width: 500px;
+        height: 700px;
+    }
+
+    .partners{
+        height: 1200px;
+    }
+
+    .partners .left{
+        margin-top: 400px;
+        margin-left: 250px;
+    }
+
+    .partners .left h2{
+        width: 900px;
+        margin-left: 50px;
+        font-size: 90px;
+    }
+
+    .partners .left p{
+        width: 900px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .partners .left .about-btn{
+        margin-top: 200px;
+        margin-left: 350px;
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .partners .right{
+        position: absolute;
+        margin-left: 100px;
+        width: 1400px;
+    }
+
+    .partners .right .partners-icon{
+        width: 200px;
+        height: 60px;
+        margin-left: 100px;
+        margin-bottom: 80px;
+    }
+
+    .showcase .easy-implement{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .showcase .easy-implement .left img{
+        width: 1000px;
+        margin-bottom: 0;
+        margin-left: 100px;
+    }
+
+    .showcase .easy-implement .right{
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+
+    .showcase .easy-implement .right h2{
+        font-size: 80px;
+        width: 900px;
+        margin-left: 100px;
+    }
+
+    .showcase .easy-implement .right p{
+        font-size: 40px;
+        width: 900px;
+        text-align:  center;
+    }
+
+    .showcase .ui-ux .left{
+        margin-top: 1200px;
+    }
+
+    .showcase .ui-ux .right{
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 50px;
+    }
+
+    .showcase .ui-ux .right img{
+        width: 1000px;
+    }
+
+    .showcase .ui-ux .left h2{
+        font-size: 80px;
+        width: 900px;
+        margin-left: 200px;
+    }
+
+    .showcase .ui-ux .left p{
+        font-size: 40px;
+        width: 900px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .showcase .money-advantages{
+        margin-top: 1200px;
+        margin-left: -100px;
+    }
+
+    .showcase .money-advantages img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .showcase .money-advantages .desc h4{
+        font-size: 30px;
+    }
+
+    .showcase .money-advantages .desc p{
+        font-size: 20px;
+    }
+
+    .action-call{
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-bottom: 200px;
+    }
+
+    .action-call .left{
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+
+}
