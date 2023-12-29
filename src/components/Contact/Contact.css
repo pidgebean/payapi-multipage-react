@@ -1,0 +1,90 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+.circle{
+    width: 780px;
+    height: 780px;
+    background-color: #979797;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    margin-top: -900px;
+    margin-left: 800px;
+    display: none;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    margin-left: 160px;
+}
+
+.contact-form input{
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #36536B;
+    margin-bottom: 5px;
+}
+
+.contact-form textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #36536B;
+}
+
+.contact-form .submit-btn{
+    border: 1px solid #36536B;
+    width: 152px;
+    height: 48px;
+    border-radius: 20px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1 .checkbox-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1 .checkbox-section input[type="checkbox"]{
+    /* appearance: none;
+    -webkit-appearance:none; */
+    width: 25px;
+    height: 25px;
+    background-color: #979797;
+    cursor: pointer;
+}
+
+.section-1 .checkbox-section input[type="checkbox"]:after{
+    background-color: #BA4270;
+}
+
+
+.section-1 .check-message{
+    width: 395px;
+    height: 50px;
+    font-size: 15px;
+    color:#36536B;
+}
+
+.section-1 .right h2{
+    font-size: 24px;
+    color: #36536B;
+    margin-left: 120px;
+}
+
+.section-1 .right .right-icons{
+    width: 600px;
+    height: 104px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.section-1 .right .right-icons img{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}

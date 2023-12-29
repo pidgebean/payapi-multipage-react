@@ -10,11 +10,12 @@
     margin-bottom: 150px;
 }
 
-.header{
+.home-title{
     width: 546px;
     height: 243px;
     font-size: 60px;
     color: #36536B;
+    margin-left: 0px;
 }
 
 .top-section .desc{
@@ -61,21 +62,22 @@
     margin-left: 700px;
 }
 
-.partners{
+.home-partners{
     background-color: #1B262F;
     display: flex;
     flex-direction: row;
-    height: 472px;
+    height: 500px;
+    width: 1110px;
 }
 
-.partners .left{
+.home-partners .left{
     margin-left: 160px;
     width: 445px;
     height: 272px;
     margin-top: 50px;
 }
 
-.partners .left h2{
+.home-partners .left h2{
     width: 445px;
     height: 56px;
     color: #FBFCFE;
@@ -83,14 +85,14 @@
     /* margin-top: 50px; */
 }
 
-.partners .left p{
+.home-partners .left p{
     width: 445px;
     height: 112px;
     color: hsla(220, 60%, 99%, 0.5);
     font-size: 15px;
 }
 
-.partners .left .about-btn{
+.home-partners .left .about-btn{
     width: 129px;
     height: 48px;
     background-color: transparent;
@@ -100,14 +102,14 @@
     cursor: pointer;
 }
 
-.partners .right{
+.home-partners .right{
     /* width: 600px; */
     height: 103px;
     margin-top: 180px;
     margin-left: 130px;
 }
 
-.partners .right .partners-icon{
+.home-partners .right .partners-icon{
     margin-right: 85px;
     margin-bottom: 45px;
     filter: brightness(0) invert(1);

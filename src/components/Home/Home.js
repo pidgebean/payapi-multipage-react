@@ -21,7 +21,7 @@ export default function Home() {
     <div className='home'>
       <div className='top-section'>
         <div className='desc'>
-          <h2 className='header'>Start building with our APIs for absolutely free</h2>
+          <h2 className='home-title'>Start building with our APIs for absolutely free</h2>
           <input type="text" placeholder='Enter email address' />
           <NavLink>
             <button className='demo-btn'>Schedule a demo</button>
@@ -31,7 +31,7 @@ export default function Home() {
         
         <img src={phone} alt="" className='phone-mockup'/>
       </div>
-      <div className='partners'>
+      <div className='home-partners'>
         <div className='left'>
           <h2>Who we work with</h2>
           <p>Today, millions of people around the world have successfully connected their accounts to apps they love using our 
